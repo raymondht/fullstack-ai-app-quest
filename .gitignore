@@ -27,10 +27,6 @@ coverage/
 .env.template
 .env.ci
 
-# TypeScript
-*.tsbuildinfo
-tsconfig.tsbuildinfo
-tsconfig.json
 
 # Testing
 jest.config.js
