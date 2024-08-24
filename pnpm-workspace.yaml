@@ -1,0 +1,3 @@
+packages:
+- apps/front-end/**
+- apps/server/**
