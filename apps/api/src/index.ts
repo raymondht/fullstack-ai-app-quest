@@ -9,7 +9,7 @@ const port = 3000;
 app.use(cors());
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Hello, World!!');
+  res.send('Hello from the API');
 });
 
 app.listen(port, () => {
