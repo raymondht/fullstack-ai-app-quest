@@ -14,7 +14,7 @@ const getEnvironmentConfig = (): AppConfig => {
             }
         default:
             return {
-                apiUrl: 'http://localhost:3000',
+                apiUrl: 'https://vercel.com/legends-of-tech/fullstack-ai-app-quest-api/',
                 appName: 'My React App - Development',
             }
     }
