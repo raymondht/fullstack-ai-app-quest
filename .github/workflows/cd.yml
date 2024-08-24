@@ -23,7 +23,7 @@ jobs:
         run: pnpm install
 
       - name: Build project
-        run: pnpm run build
+        run: pnpm run -r build
 
       - name: Deploy to Vercel
         env:
