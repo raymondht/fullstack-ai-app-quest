@@ -8,7 +8,7 @@ const port = 3000;
 // Use the cors middleware
 app.use(cors());
 
-app.get('/api', (req: Request, res: Response) => {
+app.get('/', (req: Request, res: Response) => {
   res.send('Hello, World!!');
 });
 
