@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "ts-node-dev src/index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "deploy": "npx vercel --prod --token $VERCEL_TOKEN --scope $VERCEL_ORG_ID --project $VERCEL_PROJECT_ID"
   },
   "keywords": [],
   "author": "",
