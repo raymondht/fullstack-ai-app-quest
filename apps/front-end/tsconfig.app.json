@@ -23,7 +23,6 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "src",
-    "app.config.ts"
+    "src/**/*",
   ]
 }
