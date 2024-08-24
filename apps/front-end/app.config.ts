@@ -10,7 +10,7 @@ const getEnvironmentConfig = (): AppConfig => {
         case 'production':
             return {
                 apiUrl: 'http://localhost:3000',
-                appName: 'My React App - Development',
+                appName: 'My React App - Production',
             }
         default:
             return {
