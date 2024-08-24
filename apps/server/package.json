@@ -1,6 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "ts-node-dev src/index.ts",
     "build": "tsc",
