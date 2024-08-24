@@ -6,10 +6,10 @@
             "use": "@vercel/node"
         },
         {
-            "src": "apps/front-end/vite.config.ts",
-            "use": "@vercel/vite",
+            "src": "apps/front-end/package.json",
+            "use": "@vercel/static-build",
             "config": {
-                "configFile": "apps/front-end/vite.config.ts"
+                "distDir": "apps/front-end/dist"
             }
         }
     ],
