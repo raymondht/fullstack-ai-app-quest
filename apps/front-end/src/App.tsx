@@ -9,7 +9,7 @@ function App() {
     const fetchDataForPosts = async () => {
       try {
         const response = await fetch(
-          `http://localhost:3000`
+          `http://localhost:3000/api`
         );
         if (!response.ok) {
           throw new Error(`HTTP error: Status ${response.status}`);

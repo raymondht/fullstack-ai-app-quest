@@ -5,6 +5,25 @@ importers:
   .:
     specifiers: {}
 
+  apps/api:
+    specifiers:
+      '@types/cors': ^2.8.17
+      '@types/express': ^4.17.21
+      '@types/node': ^20.14.11
+      cors: ^2.8.5
+      express: ^4.19.2
+      ts-node-dev: ^2.0.0
+      typescript: ^5.5.3
+    dependencies:
+      cors: 2.8.5
+      express: 4.19.2
+    devDependencies:
+      '@types/cors': 2.8.17
+      '@types/express': 4.17.21
+      '@types/node': 20.16.1
+      ts-node-dev: 2.0.0_ocpnenjk7l2fnvuoj6xl4ellwa
+      typescript: 5.5.4
+
   apps/front-end:
     specifiers:
       '@playwright/test': ^1.45.2
@@ -37,25 +56,6 @@ importers:
       playwright: 1.46.1
       typescript: 5.5.4
       vite: 5.4.2
-
-  apps/server:
-    specifiers:
-      '@types/cors': ^2.8.17
-      '@types/express': ^4.17.21
-      '@types/node': ^20.14.11
-      cors: ^2.8.5
-      express: ^4.19.2
-      ts-node-dev: ^2.0.0
-      typescript: ^5.5.3
-    dependencies:
-      cors: 2.8.5
-      express: 4.19.2
-    devDependencies:
-      '@types/cors': 2.8.17
-      '@types/express': 4.17.21
-      '@types/node': 20.16.1
-      ts-node-dev: 2.0.0_ocpnenjk7l2fnvuoj6xl4ellwa
-      typescript: 5.5.4
 
 packages:
 
