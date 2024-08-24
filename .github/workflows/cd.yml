@@ -30,3 +30,9 @@ jobs:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: prj_nXZJzVNLTptra4bhlYeAC1Hfc7UP
         run: npx vercel --prod --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Deploy Frontend to Vercel
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: prj_ixOJ3qU52fTLqBJ1yI7kuEu0WsII
+        run: npx vercel --prod --token=${{ secrets.VERCEL_TOKEN }}
