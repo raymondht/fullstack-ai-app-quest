@@ -36,7 +36,7 @@ jobs:
       - name: Deploy Frontend to Vercel
         env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID_FRONTEND }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID_FRONT_END }}
         run: |
           pnpm run build
           npx vercel --prod --token=${{ secrets.VERCEL_TOKEN }}
