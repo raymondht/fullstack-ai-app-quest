@@ -5,6 +5,7 @@ import config from './utils/app.config';
 
 function App() {
   const [data, setData] = useState<string>();
+
   useEffect(() => {
     const fetchDataForPosts = async () => {
       try {
