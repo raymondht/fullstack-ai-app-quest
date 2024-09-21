@@ -35,7 +35,7 @@ jobs:
   fe-e2e-test:
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/playwright:v1.45.1-focal
+      image: mcr.microsoft.com/playwright:v1.47.2-focal
 
     steps:
       - uses: actions/checkout@v3
