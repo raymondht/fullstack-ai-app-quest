@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 
 import './App.css'
 import config from './utils/app.config';
+import { toTitleCase } from './utils/string';
 
 function App() {
   const [data, setData] = useState<string>();
@@ -27,7 +28,7 @@ function App() {
   return (
     <>
       <h1>{config.appName}</h1>
-      <h3>{data}</h3>
+      <h3>{toTitleCase(data ?? "no data from server")}</h3>
     </>
   )
 }
