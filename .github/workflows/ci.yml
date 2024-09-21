@@ -55,6 +55,8 @@ jobs:
         run: pnpm i --frozen-lockfile
 
       - name: Run Playwright Tests
+        env:
+          NODE_ENV: development
         run: pnpm --filter front-end test:e2e
 
 
