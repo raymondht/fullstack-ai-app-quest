@@ -5,7 +5,7 @@ export default defineConfig({
         globals: true, // Enable globals like `describe`, `it`, `expect`
         environment: 'node', // Set the environment for tests
         exclude: [
-            '**/*.spec.ts', // Exclude all .spec.ts files
+            '**/*.spec.ts',
         ],
     },
 });

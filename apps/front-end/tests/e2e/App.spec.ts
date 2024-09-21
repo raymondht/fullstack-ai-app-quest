@@ -6,7 +6,7 @@ test.beforeEach(async ({ page }) => {
 
 test('App page should display fetch and display response from api', async ({ page }) => {
   await page.goto('/');
-  const dataFromApi = page.getByRole('heading', { name: 'Hello, World!!' });
+  const dataFromApi = page.getByRole('heading', { name: 'Hello from the API' });
   await expect(dataFromApi).toBeVisible();
 });
 
